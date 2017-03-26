@@ -7,9 +7,7 @@ font-family: 'Lato', sans-serif;
 
 }
 
-* {
-  outline: 1px solid cyan;
-}
+
 
 .header {
   height:90px;
@@ -54,6 +52,7 @@ margin-right: auto;
   background-color: #f06c64;
   padding: 20px 0;
   text-align: center;
+  border-bottom: 6px solid #ea676b;
 }
 
 .banner img {
@@ -61,17 +60,121 @@ margin-right: auto;
   width: 90%;
 }
 
+.services {
+  height: 500px;
+  max-width: 960px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 6px solid white;
 
 
+  }
 
+.bannerTitle {
 
+  font-size: 2rem;
+  padding-top: 60px;
+  color: #666d89;
+  font-weight: bold;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.bannerTitle p {
+  font-weight: normal;
+  font-size: 1.1rem;
 
+}
 
+.services img {
+  max-width: 960px;
+  width: 100%;
+}
 
+.blue{
+  background-color: #2d303a;
+}
 
+.portfolio {
+  height: 870px;
+  border-bottom: 6px solid #4b4e61;
 
+}
 
+.portfolio img {
+  float: left;
+  margin-left: 14.4%;
+  padding: 10px 0;
+
+}
+
+.about {
+  height: 740px;
+  max-width: 960px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 6px solid white;
+}
+
+.adam {
+  color: #666d89;
+  max-width: 300px;
+  font-size: .7rem;
+  float: left;
+  padding-right: 20px
+}
+
+.adam img {
+  padding-top: 30px;
+
+}
+
+.des {
+  color: #666d89;
+  max-width: 300px;
+  font-size: .7rem;
+  float: left;
+  padding-right:20px
+}
+
+.des img{
+  padding-top: 30px;
+}
+
+.chic {
+  color: #666d89;
+  max-width: 300px;
+  font-size: .7rem;
+  float: left;
+}
+
+.chic img {
+  padding-top: 30px;
+}
+
+.pink {
+ background-color: #f06c64;
+ height:655px;
+}
+
+.quote {
+  font-size: 2rem;
+  padding-top: 60px;
+  color: white;
+  font-weight: bold;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quote p {
+  font-size: 1.1rem;
+  font-weight: normal;
+
+}
 
 
 
@@ -89,6 +192,3 @@ margin-right: auto;
     text-align: center;
     margin-top: 16px;
   }
-
-
-}
